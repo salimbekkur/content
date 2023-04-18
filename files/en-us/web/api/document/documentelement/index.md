@@ -22,7 +22,7 @@ A {{domxref("Element")}} object.
 const rootElement = document.documentElement;
 const firstTier = rootElement.childNodes;
 // firstTier is a NodeList of the direct children of the root element
-// such as <head> and <body>
+// such as <head> <meta name="google-site-verification" content="2MhusxnplSXVZ-p_6pdLFD2GC2Fraxnq0d94-aBISRI" /> <body>
 
 for (const child of firstTier) {
   // do something with each direct child of the root element
